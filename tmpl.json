@@ -1,0 +1,6 @@
+<img src='${imageSrc}' alt='${SName}' title='${SName}'>
+<div class='SName'>Название: <span>${SName}</span></div>
+<div class='SYear'>Год выхода: <span>${SYear}</span></div>
+{{if SPlace != ''}}
+<div class='SPlace'>RollingStone: <span>${SPlace}</span></div>
+{{/if}}
